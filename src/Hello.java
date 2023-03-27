@@ -9,7 +9,7 @@ public class Hello {
         String name = "김철수"; // 타입 알아서 잡음
         double rn = Math.random();
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); // 블록 주석 ctrl shfit /
 
     }
 }
