@@ -3,17 +3,20 @@ package day02;
 import java.util.Arrays;
 
 public class ArrayPop {
-
     static int[] arr = {10, 20, 30, 40, 50};
     public static int pop(){
-        int[] temp = new int[arr.length-1];
-        for (int i = 0; i < temp.length; i++) {
-            temp[i] = arr[i];
+        if (arr.length>0) {
+            int delTarget = arr[arr.length-1];
+            int[] temp = new int[arr.length-1];
+            for (int i = 0; i < temp.length; i++) {
+                temp[i] = arr[i];
+            }
+            arr = temp;
+            temp = null;
+            return delTarget;
         }
-        int popNum = arr[arr.length-1];
-        arr = temp;
-        temp = null;
-        return popNum;
+        System.out.println("삭제 데이터 없음!");
+        return 0;
     }
 
 
@@ -34,6 +37,9 @@ public class ArrayPop {
         pop();
         System.out.println("Arrays.toString(arr) = " + Arrays.toString(arr));
         pop();
+        System.out.println("Arrays.toString(arr) = " + Arrays.toString(arr));
+        pop();
+        System.out.println("Arrays.toString(arr) = " + Arrays.toString(arr));
     }
 
 
