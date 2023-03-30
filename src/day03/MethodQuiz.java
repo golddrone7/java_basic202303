@@ -55,7 +55,7 @@ public class MethodQuiz {
             temp[i+1] = temp[i];
         }
         temp[idx] = food;
-        foods
+//        foods
 
     }
     private static void modify(int idx, String food){

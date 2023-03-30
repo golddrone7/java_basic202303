@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="843f0e26-de3a-468b-9672-29442df475ac" name="Changes" comment="3월 29일 자바 배열알고리즘">
+    <list default="true" id="843f0e26-de3a-468b-9672-29442df475ac" name="Changes" comment="3월 29일 자바 배열알고리즘!!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day03/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/MethodQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/MethodQuiz.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +54,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.MethodQuiz">
-    <configuration name="ArrayDelete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03.ArrayDelete" />
+  <component name="RunManager" selected="애플리케이션.DancerMain">
+    <configuration name="ArrayInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.ArrayInsert" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
@@ -68,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03.ArrayInsert" />
+    <configuration name="DancerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04.DancerMain" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03.*" />
+          <option name="PATTERN" value="day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.DancerMain" />
         <item itemvalue="애플리케이션.MethodQuiz" />
         <item itemvalue="애플리케이션.MethodBasic" />
         <item itemvalue="애플리케이션.Matrix" />
         <item itemvalue="애플리케이션.ArrayInsert" />
-        <item itemvalue="애플리케이션.ArrayDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680056815258</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="3월 29일 자바 배열알고리즘!!">
+      <created>1680066071027</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680066071027</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,7 +208,8 @@
     <MESSAGE value="3월 28일 자바" />
     <MESSAGE value="3월 28일 자바 배열알고리즘" />
     <MESSAGE value="3월 29일 자바 배열알고리즘" />
-    <option name="LAST_COMMIT_MESSAGE" value="3월 29일 자바 배열알고리즘" />
+    <MESSAGE value="3월 29일 자바 배열알고리즘!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="3월 29일 자바 배열알고리즘!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
