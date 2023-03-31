@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="843f0e26-de3a-468b-9672-29442df475ac" name="Changes" comment="3월 30일 객체 - 1">
+    <list default="true" id="843f0e26-de3a-468b-9672-29442df475ac" name="Changes" comment="# this, 멤버관리 앱">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
       <recent name="day05.member" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Test">
+  <component name="RunManager" selected="애플리케이션.day05.member.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04.array.Main" />
       <module name="java_basic" />
@@ -85,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PackagePractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04.PackagePractice" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.member.Test" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04.*" />
+          <option name="PATTERN" value="day05.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day05.member.Test" />
+    <configuration name="day05.member.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.member.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.day05.member.Main" />
         <item itemvalue="애플리케이션.Test" />
         <item itemvalue="애플리케이션.day05.player.Main" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.MethodQuiz" />
-        <item itemvalue="애플리케이션.PackagePractice" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680140898393</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="# this, 멤버관리 앱">
+      <created>1680229042583</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680229042583</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,7 +229,8 @@
     <MESSAGE value="3월 29일 자바 배열알고리즘" />
     <MESSAGE value="3월 29일 자바 배열알고리즘!!" />
     <MESSAGE value="3월 30일 객체 - 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="3월 30일 객체 - 1" />
+    <MESSAGE value="# this, 멤버관리 앱" />
+    <option name="LAST_COMMIT_MESSAGE" value="# this, 멤버관리 앱" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
