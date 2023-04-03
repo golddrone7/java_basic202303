@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="843f0e26-de3a-468b-9672-29442df475ac" name="Changes" comment="# this, 멤버관리 앱">
+    <list default="true" id="843f0e26-de3a-468b-9672-29442df475ac" name="Changes" comment="# this, 멤버관리 앱, 객체지향 - 3월31일">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/MemberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/MemberView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680229042583</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="# this, 멤버관리 앱, 객체지향 - 3월31일">
+      <created>1680234393785</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680234393785</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,7 +240,8 @@
     <MESSAGE value="3월 29일 자바 배열알고리즘!!" />
     <MESSAGE value="3월 30일 객체 - 1" />
     <MESSAGE value="# this, 멤버관리 앱" />
-    <option name="LAST_COMMIT_MESSAGE" value="# this, 멤버관리 앱" />
+    <MESSAGE value="# this, 멤버관리 앱, 객체지향 - 3월31일" />
+    <option name="LAST_COMMIT_MESSAGE" value="# this, 멤버관리 앱, 객체지향 - 3월31일" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

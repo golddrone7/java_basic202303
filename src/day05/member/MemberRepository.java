@@ -3,7 +3,7 @@ package day05.member;
 
 // 역할 : 회원 저장소 역할
 public class MemberRepository {
-
+    public static final int NOT_FOUND = -1;
     Member[] memberList;
     public MemberRepository(){
         this.memberList = new Member[3];
@@ -47,7 +47,7 @@ public class MemberRepository {
 
     boolean addMember(Member newMember){
 
-        // 이메일이 중복인가?
+        // 이메일이 중복인가?, 캡슐화
        if(isDuplicateEmail(newMember.email)) return false;
 
         // 실제로 멤버를 추가하는 코드
@@ -81,5 +81,40 @@ public class MemberRepository {
         if(memberList.length==0) return 0;
         return memberList[memberList.length-1].memberId;
     }
+
+    /**
+     * 이메일을 통해 저장된 회원의 인덱스값을 알아내는 메서드
+     * @param email - 탐색 대상의 이메일
+     * @return : 찾아낸 인덱스, 못찾으면 -1 리턴
+     */
+    int findIndexByEmail(String email){
+        for (int i = 0; i < memberList.length; i++) {
+            if(memberList[i].email.equals(email)){
+                return i;
+            }
+        }
+        return NOT_FOUND;
+    }
+
+
+    /**
+     * 비밀번호를 수정하는 기능
+     * @param email : 수정 대상의 이메일
+     * @param newPassword : 변경할 새로운 비밀번호
+     */
+
+    boolean changePassword(String email, String newPassword){
+        // 인덱스 탐색
+        int index =  findIndexByEmail(email);
+
+        // 수정진행
+        if(index == NOT_FOUND) { return false;}
+
+        memberList[index].password = newPassword;
+        return true;
+    }
+
+
+
 
 }
