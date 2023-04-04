@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="843f0e26-de3a-468b-9672-29442df475ac" name="Changes" comment="# this, 멤버관리 앱, 객체지향 - 3월31일">
+    <list default="true" id="843f0e26-de3a-468b-9672-29442df475ac" name="Changes" comment="# 멤버관리 앱 수정 기능- 4월 3일">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day05/member/MemberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/MemberView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day05/member/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/요구사항.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/요구사항.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +62,26 @@
       <recent name="day05.member" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.day05.member.Main">
+  <component name="RunManager" selected="애플리케이션.day07.lotto.Main">
+    <configuration name="GisaFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day07.quiz.GisaFirst" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day07.quiz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04.array.Main" />
+      <option name="MAIN_CLASS_NAME" value="day07.quiz.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04.array.*" />
+          <option name="PATTERN" value="day07.quiz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03.MethodQuiz" />
+    <configuration name="day06.encap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day06.encap.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03.*" />
+          <option name="PATTERN" value="day06.encap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day05.member.Test" />
+    <configuration name="day07.inherit.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day07.inherit.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day05.member.*" />
+          <option name="PATTERN" value="day07.inherit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,25 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day05.member.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day05.member.Main" />
+    <configuration name="day07.lotto.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day07.lotto.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day05.member.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day05.player.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day05.player.Main" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day05.player.*" />
+          <option name="PATTERN" value="day07.lotto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.day05.member.Main" />
-        <item itemvalue="애플리케이션.Test" />
-        <item itemvalue="애플리케이션.day05.player.Main" />
+        <item itemvalue="애플리케이션.day07.lotto.Main" />
+        <item itemvalue="애플리케이션.GisaFirst" />
         <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.MethodQuiz" />
+        <item itemvalue="애플리케이션.day07.inherit.Main" />
+        <item itemvalue="애플리케이션.day06.encap.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680234393785</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="# 멤버관리 앱 수정 기능- 4월 3일">
+      <created>1680500454046</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680500454046</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,7 +248,8 @@
     <MESSAGE value="3월 30일 객체 - 1" />
     <MESSAGE value="# this, 멤버관리 앱" />
     <MESSAGE value="# this, 멤버관리 앱, 객체지향 - 3월31일" />
-    <option name="LAST_COMMIT_MESSAGE" value="# this, 멤버관리 앱, 객체지향 - 3월31일" />
+    <MESSAGE value="# 멤버관리 앱 수정 기능- 4월 3일" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 멤버관리 앱 수정 기능- 4월 3일" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -254,6 +262,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/day07/lotto/Main.java</url>
+          <line>4</line>
+          <properties class="day07.lotto.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
