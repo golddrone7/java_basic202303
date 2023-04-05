@@ -1,5 +1,7 @@
 package day07.inherit;
 
+import static day07.util.Utility.*;
+
 public class Mage extends Player {
 
 
@@ -12,8 +14,12 @@ public class Mage extends Player {
 
 
     // 썬더볼트
-    public void thunderBolt() {
-
+    public void thunderBolt(Player a, Player ...b) {
+        System.out.println("# " + a.nickName+"님 썬더볼트 시전!!!");
+        makeLine();
+        for (Player player : b) {
+            damage(player, (int)(Math.random()*5)+11);
+        }
     }
 
     @Override

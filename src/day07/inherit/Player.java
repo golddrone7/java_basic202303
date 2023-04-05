@@ -24,4 +24,9 @@ public class Player extends Object {
         System.out.println("# hp: " + this.hp);
     }
 
+    public void damage(Player p, int atk){
+        p.hp-=atk;
+        System.out.println(p.nickName +"님이 " + atk +"의 피해를 입었습니다.(남은 체력: " + p.hp + ")");
+    }
+
 }

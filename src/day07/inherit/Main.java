@@ -12,7 +12,11 @@ public class Main {
         w.showStatus();
         m.showStatus();
         h.showStatus();
-
+        m.thunderBolt(
+                w, h, m,
+                new Warrior("토끼곤듀"),
+                new Warrior("딸긔곤듀")
+        );
 
     }
 }

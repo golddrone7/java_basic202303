@@ -8,7 +8,7 @@ public class Utility {
 
     private Utility() {}
 
-    // 구분선을 출력하는 기능
+    // 구분선을 출력하는 기능123
     public static void makeLine() {
         System.out.println("========================");
     }
