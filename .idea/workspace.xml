@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="843f0e26-de3a-468b-9672-29442df475ac" name="Changes" comment="# 자바 상속 - 4월 4일">
+    <list default="true" id="843f0e26-de3a-468b-9672-29442df475ac" name="Changes" comment="# 자바 상속 - 4월 5일">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -227,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680596145471</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="# 자바 상속 - 4월 5일">
+      <created>1680652883836</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680652883836</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +261,8 @@
     <MESSAGE value="# this, 멤버관리 앱, 객체지향 - 3월31일" />
     <MESSAGE value="# 멤버관리 앱 수정 기능- 4월 3일" />
     <MESSAGE value="# 자바 상속 - 4월 4일" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 자바 상속 - 4월 4일" />
+    <MESSAGE value="# 자바 상속 - 4월 5일" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 자바 상속 - 4월 5일" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
