@@ -55,8 +55,19 @@ public class StringList {
     public String toString(){
         return Arrays.toString(sArr);
     }
-
-
+    // 인덱스 탐색 (indexOf)
+    public int indexOf(String target) {
+        for (int i = 0; i < sArr.length; i++) {
+            if (target.equals(sArr[i])) {
+                return i;
+            }
+        }
+        return -1;
+    }
+    // 자료 유무 확인 (includes)
+    public boolean includes(String target) {
+        return indexOf(target) != -1;
+    }
 
     // 배열이 텅텅비었는지 확인
     public boolean isEmpty(){
