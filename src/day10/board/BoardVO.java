@@ -4,6 +4,7 @@ import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 
 public class BoardVO {
+
     private static int no;
     private int num;
     private String title;

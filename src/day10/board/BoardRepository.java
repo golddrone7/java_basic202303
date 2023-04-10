@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class BoardRepository {
     static Map<Integer, BoardVO> map = new HashMap<>() {{
-        for (int i = 1; i < 33; i++) {
+        for (int i = 1; i < 101; i++) {
              put(i, new BoardVO("test title hihi","gangi","asdsad"));
         }
     }};

@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class BoardView {
 
     static Map<Integer, BoardVO> map = BoardRepository.map;
-    static int lastPage = BoardVO.getNo();  // 마지막 페이지를 알 수 있음
+    static final int lastPage = BoardVO.getNo();  // 마지막 페이지를 알 수 있음
     static int page = lastPage;
     static int endPage = lastPage%10==0 ? lastPage/10 : lastPage/10+1;
     static int currentPage = 1;
@@ -29,7 +29,7 @@ public class BoardView {
 
         System.out.println("No                제목             글쓴이    작성시간   좋아요");
         System.out.println("============================================================");
-        page -= (currentPage-1)*10;
+//        System.out.println("page = " + page);
         for (int i = page; i > page-10 ; i--) {
             BoardVO vo = map.get(i);
             if(vo==null) break;
@@ -71,26 +71,38 @@ public class BoardView {
      * @param userInput 사용자 입력에 따른 분기점
      */
     private static void boardLosic(String userInput) {
-        switch (userInput.toLowerCase()){
-            case "<":
-                prevPage();
-                break;
-            case ">":
-                nextPage();
-                break;
-            case "quit":
-                System.out.println("게시판 프로그램을 종료합니다.");
-                System.exit(0);
-            default:
-                break;
+
+        try {
+            Integer.parseInt(userInput);
+            System.out.println("페이지입니당!!!");    // 게시글 들어가는 로직
+
+        } catch (Exception e) {
+            switch (userInput.toLowerCase()){
+                case "<":
+                    prevPage();
+                    break;
+                case ">":
+                    nextPage();
+                    break;
+                case "q":
+                case "quit":
+                    System.out.println("게시판 프로그램을 종료합니다.");
+                    System.exit(0);
+                default:
+                    break;
+            }
         }
-    
+
     }
     private static void prevPage(){
+        if(currentPage<=1) return;
         currentPage-=1;
+        page += 10;// 32페이지
     }
     
     private static void nextPage() {
+        if(currentPage>= endPage) return;
         currentPage+=1;
+        page -= 10;// 32페이지
     }
 }
