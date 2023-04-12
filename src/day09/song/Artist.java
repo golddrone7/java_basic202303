@@ -1,7 +1,9 @@
 package day09.song;
 import day04.array.StringList;
 
-public class Artist {
+import java.io.Serializable;
+
+public class Artist implements Serializable {
     private String name; // 가수 이름
     private StringList songList;
 

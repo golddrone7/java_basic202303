@@ -59,4 +59,6 @@ public class ArtistRepository {
     public int count(){
         return artistList.size();
     }
+
+
 }

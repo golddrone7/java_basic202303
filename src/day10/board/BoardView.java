@@ -66,6 +66,9 @@ public class BoardView {
 
     }
 
+
+
+
     /** 보드 로직 작성
      * 
      * @param userInput 사용자 입력에 따른 분기점
@@ -73,9 +76,9 @@ public class BoardView {
     private static void boardLosic(String userInput) {
 
         try {
-            Integer.parseInt(userInput);
+            int key = Integer.parseInt(userInput);
             System.out.println("페이지입니당!!!");    // 게시글 들어가는 로직
-
+//            viewBoard(key);
         } catch (Exception e) {
             switch (userInput.toLowerCase()){
                 case "<":

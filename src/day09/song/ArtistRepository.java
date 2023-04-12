@@ -3,6 +3,8 @@ package day09.song;
 import day04.array.StringList;
 import day06.modi.pac1.A;
 
+import java.io.*;
+
 public class ArtistRepository {
     public static Artist[] artistList; // 가수 배열
 
@@ -29,6 +31,9 @@ public class ArtistRepository {
         temp[temp.length -1 ] = artist;
         artistList = temp;
 
+        // 6. 세이브 파일에 저장
+        autoSave();
+
     }
     // 가수명을 받아서 해당 가수가 등록된 가수인지 확인하는 기능
     public boolean isRegistered(String artistName){
@@ -53,10 +58,10 @@ public class ArtistRepository {
         // 3. 그 노래목록에 새노래를 추가한다.
         if(!songList.includes(songName)){
             songList.push(songName);
+            autoSave();
             return true;
         }
         return false;
-
     }
 
 
@@ -69,4 +74,50 @@ public class ArtistRepository {
     public int count(){
         return artistList.length;
     }
+
+    // 자동 세이브 기능
+    public void autoSave(){
+
+        File f = new File("D:/music");
+        if(!f.exists()) f.mkdir();
+
+        try(ObjectOutputStream oos = new ObjectOutputStream(
+                new FileOutputStream("D:/music/m.sav")
+        )){
+            oos.writeObject(artistList);
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    // 자동 로드 기능
+    public static void loadFile(){
+
+        // 세이브 파일이 존재한다면
+        File f = new File("D:/music/m.sav");
+        if(f.exists()){
+            try(ObjectInputStream ois = new ObjectInputStream(
+                    new FileInputStream(f)
+            )){
+                Artist[] object = (Artist[]) ois.readObject();
+
+            } catch (FileNotFoundException e) {
+                throw new RuntimeException(e);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            } catch (ClassNotFoundException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+
+
+    }
+
+
+
+
+
 }

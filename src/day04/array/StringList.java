@@ -1,9 +1,10 @@
 package day04.array;
 
+import java.io.Serializable;
 import java.util.Arrays;
 
 // 스트링 배열을 제어하는 설계도
-public class StringList {
+public class StringList implements Serializable {
 
     // 필드
     private String[] sArr;
